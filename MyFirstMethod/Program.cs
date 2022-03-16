@@ -20,6 +20,14 @@ namespace MyFirstMethod
             {
                 CountToN (10);
             }
+
+
+            /// <summary>
+            /// Função conta de 1 até n
+            /// </summary>
+            /// <param name="n">
+            /// valor inteiro
+            /// </param>
         private static void CountToN(int n)
         {
             for (int i=1 ; i <= n; i ++)
