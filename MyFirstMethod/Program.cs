@@ -39,6 +39,11 @@ namespace MyFirstMethod
             for (int i=1 ; i <= n; i ++)
             Console.WriteLine(i);
         }
+        private static void CountToN(int n1 , int n2)
+        {
+            for (int i=n1 ; i <= n2; i ++)
+            Console.WriteLine(i);
+        }
         
     }
 }
