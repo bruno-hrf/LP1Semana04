@@ -20,5 +20,11 @@ namespace MyFirstMethod
                     Console.WriteLine(i);
                 }
             }
+        private static void CountToN(int n)
+        {
+            for (int i=0 ; i <= n; i ++)
+            Console.WriteLine(i);
+        }
+        
     }
 }
