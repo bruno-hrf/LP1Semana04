@@ -39,6 +39,16 @@ namespace MyFirstMethod
             for (int i=1 ; i <= n; i ++)
             Console.WriteLine(i);
         }
+
+        /// <summary>
+        /// Counta de n1 até n2
+        /// </summary>
+        /// <param name="n1">
+        /// numero onde começa
+        /// </param>
+        /// <param name="n2">
+        /// numero onde acaba
+        /// </param>
         private static void CountToN(int n1 , int n2)
         {
             for (int i=n1 ; i <= n2; i ++)
