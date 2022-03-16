@@ -6,8 +6,11 @@ namespace MyFirstMethod
     {
         static void Main(string[] args)
         {
-            CountTo10();
-            CountTo10();
+            string aux = Console.ReadLine();
+            int nCount = Convert.ToInt32(aux);
+            CountToN(nCount);
+            CountToN(nCount);
+            
         }
 
         /// <summary>
@@ -22,7 +25,7 @@ namespace MyFirstMethod
             }
         private static void CountToN(int n)
         {
-            for (int i=0 ; i <= n; i ++)
+            for (int i=1 ; i <= n; i ++)
             Console.WriteLine(i);
         }
         
