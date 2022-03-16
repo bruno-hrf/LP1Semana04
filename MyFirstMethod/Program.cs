@@ -14,8 +14,8 @@ namespace MyFirstMethod
             int nCount = Convert.ToInt32(aux);
             string aux2 = Console.ReadLine();
             int nCount2 = Convert.ToInt32(aux2);
-            CountToN(nCount);
-            CountToN(nCount2);
+            CountToN(nCount, nCount2);
+            
             
         }
 
