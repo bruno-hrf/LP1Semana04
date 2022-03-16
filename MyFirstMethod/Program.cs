@@ -5,7 +5,7 @@ namespace MyFirstMethod
     class Program
     {
         /// <summary>
-        /// 
+        /// Recebe 2 numeros, depois faz a contagem de 1 até esses numeros.
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
